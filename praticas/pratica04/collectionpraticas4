@@ -1,0 +1,152 @@
+type: collection.insomnia.rest/5.0
+name: "Pratica 4 "
+meta:
+  id: wrk_ddf2dcd2474d422da0dae57fe0a8156a
+  created: 1760057209815
+  modified: 1760057209815
+  description: ""
+collection:
+  - url: localhost:3000/tarefas/4
+    name: New Request
+    meta:
+      id: req_fe7460b0484e47d981618bad0cec3ee7
+      created: 1760057219545
+      modified: 1760057389697
+      isPrivate: false
+      description: ""
+      sortKey: -1760057219546
+    method: DELETE
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:3000/tarefas/3
+    name: New Request
+    meta:
+      id: req_fd1293b38f8f4333b226eb061a493244
+      created: 1760057223384
+      modified: 1760057372056
+      isPrivate: false
+      description: ""
+      sortKey: -1760057223384
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	
+        	"nome":"testeput",
+        	"concluida":"testeconcluido"
+        	
+        	
+        	
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:3000/tarefas
+    name: New Request
+    meta:
+      id: req_e96aba3e78904714b38cb3e2e6f903a6
+      created: 1760057229121
+      modified: 1760057343457
+      isPrivate: false
+      description: ""
+      sortKey: -1760057229121
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	
+        	"nome":"testepost",
+        	"concluida":"testeconcluido"
+        	
+        	
+        	
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:3000/tarefas/1
+    name: New Request
+    meta:
+      id: req_2c3fcbc45320486ca88ba667e25a0ea0
+      created: 1760057233787
+      modified: 1760057287293
+      isPrivate: false
+      description: ""
+      sortKey: -1760057233787
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: localhost:3000/tarefas
+    name: New Request
+    meta:
+      id: req_9cb243c7ee8d423080e09c24e5d33eff
+      created: 1760057241356
+      modified: 1760057264662
+      isPrivate: false
+      description: ""
+      sortKey: -1760057241356
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.6.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_9f2d6242c771716e680ea193359a6298e9328083
+    created: 1760057209861
+    modified: 1760057209861
+environments:
+  name: Base Environment
+  meta:
+    id: env_9f2d6242c771716e680ea193359a6298e9328083
+    created: 1760057209828
+    modified: 1760057209828
+    isPrivate: false
